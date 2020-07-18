@@ -1,0 +1,26 @@
+package kr.co.tjoeun.library_20200718
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class ProfilePhoto_Activity : BaseActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_profile_photo_)
+
+        setupEvents()
+        setValues()
+    }
+
+    override fun setupEvents() {
+
+
+
+    }
+
+    override fun setValues() {
+
+    }
+
+
+}
