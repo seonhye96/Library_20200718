@@ -1,7 +1,8 @@
 package kr.co.tjoeun.library_20200718
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,6 +14,12 @@ class MainActivity : BaseActivity() {
 
     override fun setupEvents() {
 
+        goToPhotoViewBtn.setOnClickListener {
+
+            val myIntent = Intent(mContext, ProfilePhotoActivity::class.java)
+            startActivity(myIntent)
+
+        }
     }
 
     override fun setValues() {

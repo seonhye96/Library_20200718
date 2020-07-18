@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfilePhoto_Activity">
+    tools:context=".ProfilePhotoActivity">
 
     <com.github.chrisbanes.photoview.PhotoView
         android:layout_width="match_parent"
